@@ -5,10 +5,9 @@ import org.springframework.stereotype.Component;
 /**
  * MailService
  */
-@Component
 public class MailService {
 
-    public void sendMail(String to, String subject, String body){
+    public void sendMail(Integer to, String subject){
         System.out.println("########### BEGIN MAIL ##########################");
         System.out.println("############################### Mail-Subjekt: " + subject);
         System.out.println("############################### Mail-Empfänger: " + to);
