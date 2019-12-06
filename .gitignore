@@ -45,3 +45,5 @@ mail.properties
 *.iws
 *.iml
 *.ipr
+
+#DUMMY_JUST_FOR_TEST
